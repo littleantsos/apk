@@ -68,10 +68,10 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "D:\\Android\\weex\\adMachineWeex\\src\\smartShelf\\motion.vue"
+	__vue_options__.__file = "D:\\Android\\weex\\adMachineWeex\\src\\smartShelf\\near.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-	__vue_options__._scopeId = "data-v-2a42b25c"
+	__vue_options__._scopeId = "data-v-18c95d4e"
 	__vue_options__.style = __vue_options__.style || {}
 	__vue_styles__.forEach(function (module) {
 	  for (var name in module) {
@@ -116,7 +116,7 @@
 	    "backgroundColor": "#000000"
 	  },
 	  "center": {
-	    "width": 320,
+	    "width": 550,
 	    "flexDirection": "column",
 	    "backgroundColor": "#ff6e97"
 	  },
@@ -129,8 +129,8 @@
 	    "fontWeight": "100"
 	  },
 	  "screen": {
-	    "width": 320,
-	    "height": 180,
+	    "width": 550,
+	    "height": 310,
 	    "backgroundColor": "#000000"
 	  },
 	  "right": {
@@ -223,11 +223,6 @@
 	//
 	//
 	//
-	//
-	//
-	//
-	//
-	//
 	"use strict";
 
 /***/ }),
@@ -243,7 +238,7 @@
 	    staticClass: ["screen"]
 	  }, [_c('SuperVideoView', {
 	    staticClass: ["screen"]
-	  })], 1), _vm._m(1)]), _vm._m(2)])
+	  })], 1), _vm._m(1)])])
 	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
 	    staticClass: ["left"]
@@ -257,18 +252,7 @@
 	    staticClass: ["center_content"]
 	  }, [_c('text', {
 	    staticClass: ["center_title"]
-	  }, [_vm._v("This is the motion video")])])
-	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', {
-	    staticClass: ["right"]
-	  }, [_c('image', {
-	    staticClass: ["icon"],
-	    attrs: {
-	      "src": "https://raw.githubusercontent.com/littleantsos/apk/master/black_log.png"
-	    }
-	  }), _c('text', {
-	    staticClass: ["center_title"]
-	  }, [_vm._v("This is the Picture item")])])
+	  }, [_vm._v("This is the people coming's video")])])
 	}]}
 	module.exports.render._withStripped = true
 
